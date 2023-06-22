@@ -18,9 +18,6 @@ var a = React.createElement(
             null,
             "React"
         )
-
-
-ㄴ
     )
 )
 
