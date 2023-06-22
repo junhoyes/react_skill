@@ -4,7 +4,6 @@ var a{
     </div>
 }
 
-
 //바벨로 변환
 var a = React.createElement(
     "div",
