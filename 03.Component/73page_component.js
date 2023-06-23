@@ -1,4 +1,4 @@
-import React, from 'react';{ Component } from "react";
+import React, from { Component } from "react";
 import MyComponent from'./72page_component';  //72page_component 파일을 불러온다.
 
 class App extends Component{
