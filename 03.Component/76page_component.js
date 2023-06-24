@@ -23,6 +23,6 @@ class MyComponent extends Component{
     }
 
     static propTypes={
-        name:propTypes.string //name props 타입을 문자열로 설정한다.
+        name:propTypes.string  //name props 타입을 문자열로 설정한다.
     }
 }
