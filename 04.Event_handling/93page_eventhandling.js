@@ -1,6 +1,6 @@
-import React, {Component} from 'React';
+import React, {Component} from 'react';
 
-class EventPracctive extend Component{
+class EventPractive extends Component{
     render(){
         return(
             <div>
