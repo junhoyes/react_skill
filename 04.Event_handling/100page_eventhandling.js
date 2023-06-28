@@ -26,8 +26,7 @@ class EventPractice extends Component{
     render(){
         return(
             <div>
-                <h1>이벤트 연습</h1>
-            </div>
+                <h1>이벤트 연습</h1>            
             <input
                 type="text"
                 name="message"
@@ -36,6 +35,7 @@ class EventPractice extends Component{
                 onChange={this.handleChange}
             />
             <button onClick={this.handleClick}>확인</button>
+            </div>
         )
     }
 }
