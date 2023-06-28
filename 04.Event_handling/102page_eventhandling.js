@@ -1,7 +1,7 @@
 import React, {Component} from 'React';
 
 class EventPractice extends Component{
-    state={
+    state = {
         Message:''
     }
 
