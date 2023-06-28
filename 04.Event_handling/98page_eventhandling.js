@@ -4,7 +4,7 @@ class EventPractice extends Component{
     state={
         message:''
     }
-
+    
     render(){
         return(
             <div>
