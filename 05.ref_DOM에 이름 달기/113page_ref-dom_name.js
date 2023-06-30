@@ -1,10 +1,10 @@
-import React, {Component} from 'React';
+import React, {Component} from 'react';
 import './113page_ref-dom_name.css';
 
-class EventPractice extends Component{
+class validationSample extends Component{
     state={
         password:'',
-        click:false,
+        clicked:false,
         validated:false        
     }
 
@@ -15,7 +15,7 @@ class EventPractice extends Component{
         });
     }
 
-    handleButtonClick=() => {
+    handleButtonClick = () => {
         this.setState({
             clicked:true,
             validated:this.state.password === '0000'
