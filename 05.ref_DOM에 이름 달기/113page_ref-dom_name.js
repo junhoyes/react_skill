@@ -29,7 +29,7 @@ class EventPractice extends Component{
                     type="password"
                     value={this.state.password}
                     onChange={this.handleChange}
-                    className={this.state.clicked ? (this.state.validated ? 'success' : 'failure') :''}
+                    className={this.state.clicked ? (this.state.validated ? 'success' : 'failure') :'' }
                 />
                 <button onClick={this.handleButtonClick}>검증하기</button>
             </div>
