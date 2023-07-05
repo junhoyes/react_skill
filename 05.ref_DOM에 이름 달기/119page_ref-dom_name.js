@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class ScrollBox extends Component{
-    render(){
+    render() {
         const style ={
             border: '1px solid black',
             height: '300px',
@@ -25,6 +25,5 @@ class ScrollBox extends Component{
         );
     }
 }
-
  
 export default ScrollBox;
